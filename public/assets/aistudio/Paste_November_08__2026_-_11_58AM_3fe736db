@@ -1,0 +1,841 @@
+Parfait. Cette fois, on va faire les choses sérieusement : je vais te préparer un PROMPT MAÎTRE GLOBAL pour ARENA ESPORT.
+
+L’objectif est de réunir dans un seul document toutes les fonctionnalités que nous avons définies depuis le début de la création de ton application, y compris les fonctionnalités ajoutées au fil de nos conversations.
+
+Je vais également intégrer une instruction très importante : si l’IA de développement constate qu’une fonctionnalité demandée n’existe pas encore, qu’elle est incomplète ou qu’elle ne fonctionne pas, elle doit automatiquement la créer, la compléter ou la corriger dans l’application.
+
+Ce ne sera donc pas simplement une description de ton application. Ce sera un véritable cahier des charges accompagné d’instructions de développement.
+
+J’ai également repris notre dernière décision concernant les paiements : Nexus Africa est le prestataire retenu, et non Flutterwave ou CinetPay, que nous avions évoqués auparavant.
+
+ARENA ESPORT — PROMPT MAÎTRE GLOBAL
+
+Document principal de développement · Version complète · Toutes les fonctionnalités réunies
+
+PROMPT MAÎTRE GLOBAL — ARENA ESPORT
+
+Audit, création, intégration et finalisation de toutes les fonctionnalités de la plateforme
+
+Tu es une intelligence artificielle spécialisée dans le développement d’applications professionnelles, les plateformes e-sport internationales, les systèmes de paiement, les bases de données, la sécurité et les interfaces modernes.
+
+Je souhaite que tu prennes en charge le développement complet de mon application ARENA ESPORT.
+
+Ton objectif est de vérifier l’intégralité de mon application actuelle, d’identifier toutes les fonctionnalités déjà présentes, celles qui sont incomplètes, celles qui ne fonctionnent pas et celles qui sont totalement absentes.
+
+RÈGLE FONDAMENTALE : SI UNE FONCTIONNALITÉ DÉCRITE DANS CE CAHIER DES CHARGES N’EXISTE PAS ENCORE, TU DOIS AUTOMATIQUEMENT LA CRÉER ET L’INTÉGRER À L’APPLICATION.
+
+Si elle existe mais fonctionne mal, corrige-la. Si elle est partiellement développée, termine-la. Si elle existe déjà et fonctionne correctement, conserve-la sans créer de doublon.
+
+Ne te contente pas de modifier l’apparence de l’application. Je veux de véritables fonctionnalités opérationnelles, connectées à la base de données et utilisables par les utilisateurs.
+
+⸻
+
+1. IDENTITÉ ET OBJECTIF DE L’APPLICATION
+
+Nom officiel : ARENA ESPORT.
+
+ARENA ESPORT est une plateforme internationale dédiée à l’e-sport et aux compétitions de jeux vidéo.
+
+Elle doit permettre aux joueurs de :
+
+* Découvrir des compétitions.
+* Participer à des tournois.
+* Créer et gérer des équipes et des squads.
+* Affronter d’autres joueurs.
+* Consulter leurs statistiques.
+* Suivre leurs classements.
+* Recevoir des récompenses.
+* Gérer leur portefeuille virtuel.
+* Effectuer des transferts de crédits entre joueurs.
+* Retirer leurs gains lorsque les conditions sont remplies.
+
+Les deux jeux prioritaires au lancement sont :
+
+* PUBG Mobile.
+* Free Fire.
+
+La plateforme doit être conçue pour accueillir progressivement d’autres jeux.
+
+L’application doit fonctionner sur mobile et sur le Web, avec une expérience prioritairement optimisée pour les iPhone et les écrans mobiles.
+
+Elle doit être conçue pour un public international.
+
+2. INSCRIPTION, CONNEXION ET GESTION DES COMPTES
+
+Créer un véritable système d’authentification comprenant :
+
+* Inscription des joueurs.
+* Connexion.
+* Déconnexion.
+* Mot de passe oublié.
+* Réinitialisation du mot de passe.
+* Vérification des adresses e-mail.
+* Protection des comptes.
+* Gestion des sessions.
+* Modification des informations personnelles.
+* Gestion des paramètres de confidentialité.
+* Suppression du compte selon les règles applicables.
+
+Chaque utilisateur doit posséder un identifiant unique ARENA ESPORT.
+
+Cet identifiant doit permettre de retrouver facilement un joueur et de lui envoyer des crédits.
+
+Prévoir différents niveaux d’accès :
+
+1. Super-administrateur.
+2. Joueur standard.
+3. Responsable d’équipe ou capitaine.
+4. Modérateurs ou membres du personnel disposant uniquement des permissions accordées par l’administrateur.
+
+Les permissions doivent être contrôlées côté serveur et non uniquement dans l’interface.
+
+3. PROFILS PROFESSIONNELS DES JOUEURS
+
+Créer une page de profil complète pour chaque joueur.
+
+Elle doit contenir :
+
+* Photo de profil.
+* Pseudo.
+* Identifiant ARENA ESPORT.
+* Pays.
+* Jeu principal.
+* Niveau du joueur.
+* Nombre de tournois disputés.
+* Nombre de victoires.
+* Nombre de défaites.
+* Nombre de podiums.
+* Pourcentage de victoires.
+* Historique des compétitions.
+* Classement actuel.
+* Récompenses obtenues.
+* Badges débloqués.
+* Équipes auxquelles le joueur appartient.
+
+Ajouter un badge de vérification pour les joueurs dont l’identité ou le compte a été vérifié par l’administration.
+
+Le profil doit être professionnel, moderne et partageable.
+
+4. SYSTÈME D’ÉQUIPES ET DE SQUADS
+
+Créer un système complet de gestion des équipes.
+
+Fonctionnalités :
+
+* Création d’une équipe.
+* Nom et logo de l’équipe.
+* Description.
+* Sélection du jeu.
+* Invitation de joueurs.
+* Acceptation et refus des invitations.
+* Gestion des membres.
+* Désignation d’un capitaine.
+* Gestion des rôles dans l’équipe.
+* Départ d’un joueur.
+* Exclusion d’un membre par le responsable autorisé.
+* Affichage des statistiques collectives.
+* Historique des compétitions de l’équipe.
+
+Chaque équipe doit avoir un espace dédié avec ses informations et ses performances.
+
+Prévoir les formats de compétition adaptés aux jeux concernés, notamment les squads et les compétitions individuelles.
+
+5. TOURNOIS OFFICIELS
+
+C’est l’une des fonctionnalités les plus importantes de toute la plateforme.
+
+SEUL LE SUPER-ADMINISTRATEUR EST AUTORISÉ À CRÉER ET PUBLIER LES TOURNOIS OFFICIELS ARENA ESPORT AVEC RÉCOMPENSES.
+
+Un joueur standard ne doit jamais pouvoir publier lui-même un tournoi officiel.
+
+L’administrateur doit disposer d’un formulaire de création de tournoi comprenant :
+
+* Nom du tournoi.
+* Image ou affiche officielle.
+* Jeu concerné.
+* Mode de compétition.
+* Date de début.
+* Date de fin.
+* Heure de début.
+* Heure de clôture des inscriptions.
+* Nombre maximum de participants ou de squads.
+* Frais d’inscription.
+* Nombre de places disponibles.
+* Récompenses.
+* Description complète.
+* Règlement.
+* Conditions de participation.
+* Format des matchs.
+* Informations complémentaires.
+
+L’administrateur doit pouvoir modifier, publier, suspendre, annuler ou clôturer un tournoi.
+
+Chaque tournoi officiel doit être clairement identifié comme tel.
+
+Les frais d’inscription et les récompenses doivent être configurables par l’administrateur pour chaque tournoi.
+
+Prévoir également une distinction claire entre les tournois officiels et les éventuelles activités communautaires, sans jamais donner aux joueurs le droit de créer des tournois officiels rémunérés.
+
+6. INSCRIPTION ET PAIEMENT AUX TOURNOIS
+
+Lorsqu’un joueur ouvre un tournoi, il doit pouvoir consulter toutes les informations avant de participer.
+
+Afficher clairement :
+
+* Les frais d’inscription.
+* Les récompenses.
+* Le nombre de participants.
+* Les places restantes.
+* La date de la compétition.
+* Les conditions de participation.
+
+Lorsque le joueur clique sur « Participer » ou « S’inscrire », afficher une fenêtre de confirmation et de paiement.
+
+Le processus doit être le suivant :
+
+1. Vérification de l’éligibilité du joueur.
+2. Vérification des places disponibles.
+3. Affichage du montant exact.
+4. Ouverture de l’interface de paiement.
+5. Paiement via les moyens disponibles chez Nexus Africa.
+6. Vérification réelle de la transaction.
+7. Confirmation de l’inscription.
+8. Attribution automatique de la place au joueur ou à son équipe.
+
+Ne jamais confirmer une inscription simplement parce que l’utilisateur a cliqué sur le bouton de paiement.
+
+La confirmation doit dépendre du statut réel du paiement vérifié côté serveur.
+
+Éviter les doubles inscriptions et les doubles prélèvements.
+
+POLITIQUE DE REMBOURSEMENT : LES FRAIS D’INSCRIPTION AUX TOURNOIS NE SONT PAS REMBOURSABLES.
+
+Cette règle doit être clairement indiquée avant le paiement et intégrée au règlement des tournois, sous réserve des obligations légales applicables.
+
+7. GESTION AUTOMATIQUE DES MATCHS ET COMPÉTITIONS
+
+Créer un système permettant de gérer automatiquement les compétitions.
+
+Fonctionnalités :
+
+* Génération automatique des brackets.
+* Répartition des équipes.
+* Organisation des phases de groupes.
+* Gestion des phases éliminatoires.
+* Quarts de finale.
+* Demi-finales.
+* Finale.
+* Gestion des scores.
+* Validation des résultats.
+* Passage automatique au tour suivant.
+* Gestion des abandons et disqualifications.
+* Historique des matchs.
+
+Ajouter un système de check-in obligatoire avant le début des compétitions.
+
+Les participants doivent confirmer leur présence dans le délai défini par l’administrateur.
+
+Prévoir un système de gestion des absents et des équipes qui ne se présentent pas.
+
+8. SALLES PRIVÉES ET INFORMATIONS DE MATCH
+
+Créer un espace permettant de communiquer les informations nécessaires aux participants.
+
+L’administrateur doit pouvoir ajouter :
+
+* Identifiant de salle.
+* Mot de passe de salle.
+* Heure d’accès.
+* Instructions.
+* Consignes de compétition.
+
+Les informations sensibles doivent être accessibles uniquement aux participants autorisés.
+
+Prévoir un système de notification lorsqu’une salle est disponible.
+
+9. RÉSULTATS EN DIRECT ET CLASSEMENTS
+
+Créer un système de suivi des compétitions.
+
+Les utilisateurs doivent pouvoir consulter :
+
+* Les matchs en cours.
+* Les scores.
+* Les résultats validés.
+* Les équipes qualifiées.
+* Les classements.
+* Les prochaines rencontres.
+* L’avancement des tournois.
+
+Créer plusieurs types de classements :
+
+* Classement mondial.
+* Classement par jeu.
+* Classement par saison.
+* Classement individuel.
+* Classement des équipes.
+* Classement par performances.
+
+Les résultats doivent être mis à jour automatiquement après validation.
+
+Ne pas inventer de statistiques de jeu. Utiliser les API disponibles lorsque cela est possible ou les résultats validés par les personnes autorisées.
+
+10. MVP ET RÉCOMPENSES
+
+Créer un système de désignation du MVP (Most Valuable Player).
+
+L’administrateur doit pouvoir désigner le meilleur joueur d’un match ou d’un tournoi selon les critères retenus.
+
+Afficher :
+
+* Le joueur MVP.
+* Son profil.
+* Son équipe.
+* Sa performance.
+* La compétition concernée.
+
+Ajouter un système de récompenses virtuelles :
+
+* Badges.
+* Trophées.
+* Distinctions.
+* Récompenses de saison.
+* Récompenses de performance.
+* Hall of Fame.
+
+Les récompenses doivent être attribuées et conservées dans l’historique du joueur.
+
+11. SAISONS ET HALL OF FAME
+
+Créer un système de saisons compétitives.
+
+Chaque saison doit pouvoir posséder :
+
+* Un nom.
+* Une date de début.
+* Une date de fin.
+* Des classements.
+* Des récompenses.
+* Des statistiques.
+* Des tournois associés.
+
+L’administrateur doit pouvoir ouvrir et clôturer une saison.
+
+Créer un Hall of Fame mettant en avant les joueurs et équipes ayant marqué l’histoire de la plateforme.
+
+12. SYSTÈME DE PARRAINAGE
+
+Ajouter un système de parrainage.
+
+Chaque joueur doit pouvoir disposer d’un code ou lien de parrainage unique.
+
+Fonctionnalités :
+
+* Partage du code.
+* Identification du filleul.
+* Suivi des invitations.
+* Historique des parrainages.
+* Attribution des récompenses selon les règles définies par l’administrateur.
+* Prévention des abus et des faux comptes.
+
+Les récompenses doivent être attribuées uniquement lorsque les conditions définies sont effectivement remplies.
+
+13. NOTIFICATIONS ET CALENDRIER
+
+Créer un centre de notifications complet.
+
+Les notifications doivent notamment concerner :
+
+* Inscription confirmée.
+* Paiement effectué.
+* Nouveau tournoi publié.
+* Début imminent d’un tournoi.
+* Ouverture d’une salle.
+* Invitation à une équipe.
+* Résultat d’un match.
+* Qualification.
+* Récompense obtenue.
+* Transfert reçu.
+* Transfert envoyé.
+* Retrait effectué.
+* Annonce administrative.
+
+Créer également un calendrier des compétitions avec les dates et horaires des événements.
+
+Prévoir des notifications internes et des notifications push lorsque le support technique le permet.
+
+Ne pas intégrer de système de vérification ou de notification par SMS.
+
+14. PORTEFEUILLE VIRTUEL ARENA ESPORT
+
+Créer un véritable portefeuille virtuel personnel pour chaque utilisateur.
+
+Le portefeuille doit permettre de :
+
+* Consulter son solde disponible.
+* Recharger son compte.
+* Recevoir des crédits.
+* Envoyer des crédits à un autre joueur.
+* Consulter son historique.
+* Effectuer une demande de retrait.
+* Suivre les opérations en cours.
+* Consulter les transactions réussies et échouées.
+
+Afficher les soldes de manière claire.
+
+Distinguer les fonds disponibles, les fonds en attente et les fonds bloqués, si ces statuts sont nécessaires.
+
+14.1. Recharge du portefeuille
+
+Le joueur doit pouvoir recharger son portefeuille avec les moyens de paiement pris en charge par Nexus Africa :
+
+* Mobile Money africain compatible.
+* Cartes Visa.
+* Cartes Mastercard.
+
+Prévoir une interface de recharge avec :
+
+* Montant à recharger.
+* Moyen de paiement.
+* Confirmation.
+* Statut de transaction.
+* Historique.
+
+Une recharge ne doit être créditée qu’après confirmation authentifiée du prestataire de paiement.
+
+14.2. Transferts P2P entre joueurs
+
+Créer une fonctionnalité de transfert de crédits entre utilisateurs.
+
+Le joueur doit pouvoir envoyer de l’argent à un autre joueur grâce à son identifiant unique ARENA ESPORT.
+
+Déroulement :
+
+1. Le joueur ouvre la rubrique « Transfert ».
+2. Il saisit l’identifiant du destinataire.
+3. L’application retrouve le compte correspondant.
+4. Elle affiche le pseudo et les informations nécessaires pour confirmer le destinataire.
+5. Le joueur saisit le montant.
+6. L’application vérifie le solde disponible.
+7. Une fenêtre récapitulative affiche le destinataire et le montant.
+8. Le joueur confirme.
+9. Le compte expéditeur est débité.
+10. Le compte destinataire est crédité.
+11. Les deux utilisateurs reçoivent une notification.
+12. La transaction apparaît dans leurs historiques respectifs.
+
+RÈGLE TECHNIQUE ESSENTIELLE :
+
+Le débit et le crédit doivent être exécutés dans une seule transaction atomique côté base de données.
+
+Utiliser des opérations sécurisées côté serveur, notamment des fonctions transactionnelles Supabase si Supabase est la base de données du projet.
+
+Il est interdit de permettre au client de modifier directement son solde.
+
+Prévoir :
+
+* Vérification du solde.
+* Protection contre les doubles transferts.
+* Identifiants de transaction uniques.
+* Protection contre les requêtes répétées.
+* Gestion des erreurs.
+* Historique complet.
+* Traçabilité des opérations.
+
+Un transfert ne doit jamais pouvoir créer un solde négatif.
+
+14.3. Retraits du portefeuille
+
+Créer une rubrique « Retirer mes fonds ».
+
+Le joueur doit pouvoir demander un retrait vers les moyens pris en charge :
+
+* Mobile Money.
+* Compte bancaire.
+
+Prévoir :
+
+* Saisie du montant.
+* Sélection du moyen de retrait.
+* Saisie des informations du bénéficiaire.
+* Récapitulatif.
+* Confirmation.
+* Statut du retrait.
+* Historique.
+
+Les retraits doivent être contrôlés côté serveur et soumis aux vérifications nécessaires.
+
+Prévoir les statuts :
+
+* En attente.
+* En cours de traitement.
+* Réussi.
+* Refusé.
+* Échoué.
+
+Ne jamais afficher un retrait comme réussi avant confirmation effective.
+
+14.4. Historique financier
+
+Créer un historique complet et consultable comprenant :
+
+* Recharges.
+* Transferts envoyés.
+* Transferts reçus.
+* Paiements des tournois.
+* Gains.
+* Retraits.
+* Frais éventuels.
+* Remboursements uniquement lorsqu’ils sont légalement obligatoires ou administrativement justifiés.
+
+Chaque opération doit contenir une référence unique, une date, un montant, un type et un statut.
+
+15. INTÉGRATION DU PRESTATAIRE NEXUS AFRICA
+
+Le prestataire de paiement retenu pour ARENA ESPORT est NEXUS AFRICA.
+
+Ne pas réintroduire Flutterwave ou CinetPay comme prestataires alternatifs.
+
+Prévoir une intégration réelle de Nexus Africa pour les paiements entrants et les décaissements, selon les fonctionnalités effectivement proposées par son API et le contrat marchand.
+
+L’intégration doit prendre en charge, lorsque disponibles :
+
+* Mobile Money africain.
+* Visa.
+* Mastercard.
+* Vérification des transactions.
+* Notifications serveur (webhooks).
+* Gestion des paiements échoués.
+* Décaissements.
+* Suivi des retraits.
+
+Créer une configuration administrative permettant de gérer les paramètres nécessaires.
+
+Les clés secrètes doivent rester exclusivement côté serveur, dans des variables d’environnement sécurisées.
+
+Ne jamais inventer des endpoints ou des fonctionnalités de Nexus Africa.
+
+Si la documentation ou les identifiants nécessaires ne sont pas disponibles, préparer l’intégration et signaler précisément ce qui manque, sans simuler un paiement réel.
+
+16. CENTRE DE CONTRÔLE SUPER-ADMINISTRATEUR
+
+Créer un véritable tableau de bord administratif centralisé.
+
+Le super-administrateur doit pouvoir contrôler l’ensemble de la plateforme.
+
+Fonctionnalités :
+
+Gestion des utilisateurs
+
+* Voir tous les utilisateurs.
+* Rechercher un utilisateur.
+* Consulter son profil.
+* Modifier les informations autorisées.
+* Suspendre un compte.
+* Réactiver un compte.
+* Gérer les vérifications.
+* Gérer les sanctions.
+
+Gestion des tournois
+
+* Créer.
+* Modifier.
+* Publier.
+* Suspendre.
+* Annuler.
+* Clôturer.
+* Configurer les frais.
+* Configurer les récompenses.
+* Gérer les participants.
+* Gérer les résultats.
+
+Gestion des équipes
+
+* Consulter les équipes.
+* Gérer les abus.
+* Intervenir sur les conflits.
+* Appliquer des sanctions.
+
+Gestion financière
+
+* Consulter les transactions.
+* Consulter les recharges.
+* Consulter les transferts.
+* Consulter les retraits.
+* Traiter les demandes de retrait.
+* Suivre les paiements.
+* Consulter les commissions éventuelles.
+* Consulter les rapports financiers.
+
+Gestion des récompenses
+
+* Attribuer des badges.
+* Désigner les MVP.
+* Gérer le Hall of Fame.
+* Configurer les récompenses.
+* Gérer les saisons.
+
+Gestion de la plateforme
+
+* Publier des annonces.
+* Gérer les notifications.
+* Gérer les signalements.
+* Gérer les tickets de support.
+* Gérer les classements.
+* Consulter les statistiques globales.
+
+Créer également un journal d’activité administrative permettant de savoir qui a effectué quelle action et à quel moment.
+
+Les actions sensibles doivent être traçables.
+
+17. SÉCURITÉ ET ANTI-TRICHE
+
+Mettre en place un véritable système de sécurité.
+
+Prévoir :
+
+* Protection des comptes.
+* Contrôle des permissions.
+* Protection des données personnelles.
+* Protection contre les accès non autorisés.
+* Détection des comportements suspects.
+* Signalement des joueurs.
+* Signalement des équipes.
+* Gestion des preuves.
+* Modération.
+* Sanctions.
+* Historique des décisions.
+
+Pour Supabase, utiliser des politiques RLS adaptées à chaque table.
+
+Aucun utilisateur ne doit pouvoir modifier les résultats officiels, les soldes financiers, les récompenses ou les permissions administratives sans autorisation.
+
+18. SUPPORT ET ASSISTANCE
+
+Créer un centre d’assistance permettant aux joueurs de contacter l’équipe ARENA ESPORT.
+
+Fonctionnalités :
+
+* Création de tickets.
+* Catégories de problèmes.
+* Description.
+* Ajout de preuves ou captures d’écran.
+* Suivi du statut.
+* Réponses de l’administration.
+* Historique des échanges.
+* Clôture des tickets.
+
+L’administrateur doit disposer d’une interface de traitement des demandes.
+
+19. INTERFACE ET EXPÉRIENCE UTILISATEUR
+
+L’application doit présenter un design professionnel, moderne, immersif et cohérent avec l’univers e-sport.
+
+Prévoir les rubriques principales suivantes :
+
+1. Accueil.
+2. Explorer.
+3. Arena / Tournois.
+4. Classements.
+5. Portefeuille.
+6. Notifications.
+7. Profil.
+
+L’interface doit être fluide et adaptée aux écrans mobiles et Web.
+
+Prévoir :
+
+* Navigation intuitive.
+* Boutons fonctionnels.
+* Fenêtres de confirmation.
+* Indicateurs de chargement.
+* Messages de réussite et d’erreur.
+* États vides.
+* Affichage clair des données.
+* Cohérence graphique entre les pages.
+
+Ne pas supprimer les fonctionnalités existantes qui fonctionnent déjà simplement pour changer le design.
+
+20. LANGUES ET INTERNATIONALISATION
+
+L’application doit être disponible dans quatre langues :
+
+* Français.
+* Anglais.
+* Espagnol.
+* Arabe.
+
+Prévoir une véritable traduction de l’ensemble de l’interface.
+
+Pour l’arabe, prendre en charge l’écriture de droite à gauche (RTL).
+
+Prévoir également :
+
+* Gestion des devises.
+* Affichage des montants selon la devise.
+* Fuseaux horaires.
+* Formats de dates adaptés.
+* Paramètres régionaux.
+
+Les paiements doivent utiliser uniquement les devises réellement prises en charge par le prestataire.
+
+21. ARCHITECTURE TECHNIQUE ET BASE DE DONNÉES
+
+Conserver l’architecture et les technologies déjà configurées dans le projet lorsqu’elles sont fonctionnelles.
+
+Si le projet utilise Supabase, vérifier notamment :
+
+* Authentification.
+* Tables.
+* Relations.
+* Fonctions SQL.
+* Fonctions serveur.
+* Storage.
+* Politiques RLS.
+* Webhooks.
+* Gestion des transactions.
+
+Prévoir une structure de données cohérente pour :
+
+* Utilisateurs.
+* Profils.
+* Équipes.
+* Membres.
+* Tournois.
+* Inscriptions.
+* Matchs.
+* Résultats.
+* Classements.
+* Portefeuilles.
+* Transactions.
+* Recharges.
+* Transferts.
+* Retraits.
+* Récompenses.
+* Badges.
+* Saisons.
+* Notifications.
+* Parrainages.
+* Signalements.
+* Tickets.
+* Journal administratif.
+
+Toutes les fonctionnalités doivent être réellement reliées à leurs données.
+
+Ne pas créer de données fictives en remplacement des véritables fonctionnalités.
+
+22. RÈGLES ABSOLUES DE DÉVELOPPEMENT
+
+Tu dois respecter les règles suivantes pendant toute ton intervention :
+
+1. Ne pas te limiter à un audit ou à une liste de recommandations.
+2. Créer automatiquement toutes les fonctionnalités manquantes.
+3. Corriger les fonctionnalités défectueuses.
+4. Compléter les fonctionnalités inachevées.
+5. Ne pas créer de doublons.
+6. Ne pas supprimer les fonctionnalités existantes qui fonctionnent.
+7. Ne pas casser les autres parties de l’application.
+8. Ne pas remplacer une véritable fonctionnalité par un simple bouton décoratif.
+9. Ne pas simuler les paiements, les transferts ou les retraits.
+10. Respecter les permissions du super-administrateur.
+11. Vérifier la sécurité côté serveur.
+12. Vérifier les connexions à la base de données.
+13. Tester les opérations importantes.
+14. Corriger les erreurs découvertes pendant les tests.
+15. Préserver les données existantes.
+
+Si une fonctionnalité dépend d’un service externe, d’une clé API ou d’une validation commerciale, prépare tout ce qui peut être développé et indique clairement les éléments indispensables à obtenir.
+
+23. MÉTHODE D’EXÉCUTION
+
+Je souhaite que tu travailles méthodiquement.
+
+ÉTAPE 1 — AUDIT COMPLET
+
+Analyse l’application actuelle et compare toutes ses fonctionnalités avec ce cahier des charges.
+
+ÉTAPE 2 — IDENTIFICATION DES MANQUES
+
+Classe chaque fonctionnalité dans l’une des catégories suivantes :
+
+* Déjà présente et fonctionnelle.
+* Présente mais incomplète.
+* Présente mais défectueuse.
+* Totalement absente.
+
+ÉTAPE 3 — DÉVELOPPEMENT
+
+Commence à créer et intégrer toutes les fonctionnalités manquantes.
+
+ÉTAPE 4 — CORRECTIONS
+
+Corrige les problèmes de fonctionnement, de sécurité, de navigation et de connexion à la base de données.
+
+ÉTAPE 5 — TESTS
+
+Teste chaque module, notamment :
+
+* Inscription et connexion.
+* Création et gestion des équipes.
+* Publication des tournois.
+* Inscriptions et paiements.
+* Génération des brackets.
+* Résultats.
+* Classements.
+* Portefeuille.
+* Transferts P2P.
+* Retraits.
+* Administration.
+* Notifications.
+* Permissions.
+
+ÉTAPE 6 — VALIDATION FINALE
+
+Fournis un compte rendu indiquant :
+
+* Les fonctionnalités déjà présentes.
+* Les fonctionnalités créées.
+* Les fonctionnalités corrigées.
+* Les tests effectués.
+* Les problèmes restant à résoudre.
+* Les éventuelles clés API ou validations externes encore nécessaires.
+
+Ne déclare jamais une fonctionnalité terminée si elle n’a pas été réellement implémentée et vérifiée.
+
+⸻
+
+INSTRUCTION FINALE
+
+Je veux que tu transformes ARENA ESPORT en une véritable plateforme e-sport internationale, complète, professionnelle, sécurisée et opérationnelle.
+
+Ne considère pas ce document comme une simple proposition de fonctionnalités : il constitue le cahier des charges à appliquer à mon application existante.
+
+Ta mission est de comparer, créer, compléter, corriger, intégrer et tester chaque fonctionnalité décrite.
+
+Commence par analyser le projet existant, puis passe directement à l’implémentation des fonctionnalités manquantes.
+
+Ne te contente pas de me dire ce qu’il faudrait faire : fais-le directement dans le projet, dans la limite des accès et des services disponibles.
+
+Le résultat final doit être une application ARENA ESPORT cohérente, entièrement connectée et prête à être utilisée dans des conditions réelles.
+
+Ce que j’ai volontairement intégré dans ce grand prompt
+
+Voici les décisions importantes que j’ai reprises de nos précédents échanges :
+
+* Seul le super-administrateur publie les tournois officiels avec récompenses.
+* Prestataire de paiement : Nexus Africa.
+* Mobile Money africain, Visa et Mastercard.
+* Portefeuille virtuel et transferts P2P entre joueurs.
+* Aucun remboursement des inscriptions, sous réserve des obligations légales.
+* Pas de vérification par SMS.
+* Français, anglais, espagnol et arabe.
+* PUBG Mobile et Free Fire prioritaires.
+* Plateforme internationale mobile et Web.
+
+J’ai également repris les fonctionnalités supplémentaires que nous avions acceptées : MVP, Hall of Fame, badges, saisons, parrainage, classements, check-in, brackets automatiques, résultats en direct, anti-triche et support.
+
+Mon conseil : colle le prompt entier dans l’IA qui développe actuellement ARENA ESPORT. Demande-lui de travailler directement sur ton projet existant, sans reconstruire inutilement ce qui fonctionne déjà.
+
+Une dernière précision : ce prompt rassemble toutes les décisions que j’ai pu retrouver. Les détails qui n’avaient pas encore été fixés, comme certains frais de transfert ou seuils de retrait, restent configurables plutôt que d’être inventés.
+
+L’objectif est que cette fois, aucune fonctionnalité importante d’ARENA ESPORT ne soit oubliée.

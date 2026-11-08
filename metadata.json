@@ -1,0 +1,6 @@
+{
+  "name": "ARENA E-SPORT",
+  "description": "Plateforme e-sport mondiale de tournois Free Fire à grande échelle avec barre de navigation flottante Liquid Glass iOS, tournois officiels avec cashprize, suivi des équipes, communauté et portefeuille complet.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
